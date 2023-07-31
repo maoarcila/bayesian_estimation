@@ -12,11 +12,11 @@ from pandas import DataFrame as pd_DataFrame
 from pyspark.sql import DataFrame
 from pyspark.sql.functions import col, concat, lpad
 
-from bayesian_estimation.configs.bayesian_arimax_mms_wamp_config import (
+from bayesian_estimation.config.bayesian_arimax_mms_wamp_config import (
     Bayesian_Arimax_MMS_WAMP_Config,
 )
-from bayesian_estimation.loglike import Loglike
-from bayesian_estimation.sarimax.sarimax import RunSarimaxModel
+from bayesian_estimation.Bayesian.loglike import Loglike
+from bayesian_estimation.Sarimax.sarimax import RunSarimaxModel
 from bayesian_estimation.model_utils import ModelUtils
 
 

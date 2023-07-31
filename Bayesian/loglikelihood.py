@@ -1,7 +1,7 @@
 import numpy as np
 import theano.tensor as tt
 
-from bayesian_estimation.score import Score
+from bayesian_estimation.Bayesian.score import Score
 
 
 class Loglike(tt.Op):

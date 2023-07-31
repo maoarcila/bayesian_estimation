@@ -8,8 +8,8 @@ from nameof import nameof
 from pandas import DataFrame as pd_DataFrame
 from pyspark.sql import DataFrame
 
-from bayesian_estimation.sarimax_config import sarimax_config
-from bayesian_estimation.sarimax import RunSarimaxModel
+from bayesian_estimation.config.sarimax_config import sarimax_config
+from bayesian_estimation.Sarimax.sarimax import RunSarimaxModel
 
 
 class SarimaxBase(ExperimentPhaseBase):
