@@ -12,12 +12,12 @@ from pandas import DataFrame as pd_DataFrame
 from pyspark.sql import DataFrame
 from pyspark.sql.functions import col, concat, lpad
 
-from lola_optimize.elasticity.configs.bayesian_arimax_mms_wamp_config import (
+from bayesian_estimation.configs.bayesian_arimax_mms_wamp_config import (
     Bayesian_Arimax_MMS_WAMP_Config,
 )
-from lola_optimize.elasticity.models.bayesian.loglike import Loglike
-from lola_optimize.elasticity.models.sarimax.sarimax import RunSarimaxModel
-from lola_optimize.elasticity.utils.model_utils import ModelUtils
+from bayesian_estimation.loglike import Loglike
+from bayesian_estimation.sarimax.sarimax import RunSarimaxModel
+from bayesian_estimation.model_utils import ModelUtils
 
 
 class Bayesian(ExperimentPhaseBase):
