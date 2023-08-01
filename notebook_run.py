@@ -9,9 +9,9 @@ from bayesian_estimation.config.config_mappings import ConfigMappings
 from bayesian_estimation.config.mms_wamp_partition import (
     MmsWampPartition as ModelConfig,
 )
-from lola_optimize.elasticity.models.ols.ols_mms_wamp import ols_mms_wamp as OLSModel
-from lola_optimize.elasticity.preprocess.preprocess_mms import PreprocessMMS
-from lola_optimize.elasticity.preprocess.preprocess_wamp_mms import PreprocessWampMms
+from bayesian_estimation.models.ols.ols_mms_wamp import ols_mms_wamp as OLSModel
+from bayesian_estimation.preprocess.preprocess_mms import PreprocessMMS
+from bayesian_estimation.preprocess.preprocess_wamp_mms import PreprocessWampMms
 from ml_tools.data_sources.databricks import Databricks
 from ml_tools.experiment.experiment import Experiment
 from ml_tools.experiment.experiment_phases import ExperimentPhases
