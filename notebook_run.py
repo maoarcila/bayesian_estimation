@@ -1,8 +1,8 @@
 # Databricks notebook source
 import os
 
-from beertech_utils.core.config import ConfigManager
-from beertech_utils.core.logger import LogManager as LM
+#from beertech_utils.core.config import ConfigManager
+#from beertech_utils.core.logger import LogManager as LM
 
 from bayesian_estimation.config.config_mappings import ConfigMappings
 
