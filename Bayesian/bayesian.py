@@ -22,11 +22,11 @@ from bayesian_estimation.model_utils import ModelUtils
 
 class Bayesian(ExperimentPhaseBase):
     """
-    This is class for creating Bayesian ARIMAX models. These the dependencies
+    This is class for creating Bayesian ARIMAX models. These are the dependencies
     that need to be provided to the experiment_phase to run it successfully:
     1. train_min_year_month str: Minimum year month value to train the arimax model on
     2. train_max_year_month str: Maximum year month value to train the arimax model on
-    3. wamp str str: WAMP to run the experiment_phase on
+    3. wamp str: WAMP to run the experiment_phase on
     4. mms str: MMS to run the experiment_phase on
     5. post_process_seed str: Post Process seed to make the experiment unique
     6. priors_from_ols: Flag to switch between constraint OLS and ARIMAX values to be used as priors
